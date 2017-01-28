@@ -1,0 +1,10 @@
+name:              httptest
+version:           1.0
+Build-Type:        Simple
+cabal-version:     >= 1.2
+
+executable httptest
+  main-is:         Main.hs
+  hs-source-dirs:  src
+  build-depends:   base, aeson, scotty
+  extensions: OverloadedStrings
